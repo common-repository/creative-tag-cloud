@@ -1,0 +1,43 @@
+/**
+* CSS for Creative Tag Cloud
+*
+*
+*
+* @since      0.1.0
+* @package    creative_tag_cloud
+* @subpackage creative_tag_cloud/public/css
+* @author     Christoph Amthor @ Chatty Mango
+* @copyright   2017 Christoph Amthor (@ Chatty Mango, chattymango.com)
+* @license     GPLv3
+*
+*
+* THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+* IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+* FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+* AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+* LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+* OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+* THE SOFTWARE.
+*
+*/
+
+/*CSS for the tag wave*/
+
+/*CSS for the tag spiral*/
+.cm-spiral-tags-container {
+  height:1%; /* webkit */
+  overflow:hidden;/* IE */
+}
+
+.cm-spiral-tags {
+  transition: fill 0.5s;
+  -webkit-transition: fill 0.5s;
+}
+
+.cm-spiral-tags-cw {
+  kerning:-2;
+  letter-spacing: -2;
+}
+
+.cm-spiral-tags-ccw {
+}

@@ -1,0 +1,64 @@
+/*
+This file contains some sample colors. If you like to use different colors, simply copy this file to your
+"uploads" folder before editing the values.
+If you need different color sets on one web site, then you need to use the parameter "div_id" in the tag cloud
+and use this id below: #my_id .creative-tag-cloud-color-1 {}
+*/
+
+.creative-tag-cloud-color-1 {
+  fill: #dc6900;
+  transition:0.5s;
+}
+.creative-tag-cloud-color-2 {
+  fill: #eb8c00;
+  transition:0.5s;
+}
+.creative-tag-cloud-color-3 {
+  fill: #e0301e;
+  transition:0.5s;
+}
+.creative-tag-cloud-color-4 {
+  fill: #a32020;
+  transition:0.5s;
+}
+.creative-tag-cloud-color-5 {
+  fill: #602320;
+  transition:0.5s;
+}
+.creative-tag-cloud-color-6 {
+  fill: #0e1a40;
+  transition:0.5s;
+}
+.creative-tag-cloud-color-7 {
+  fill: #222f5b;
+  transition:0.5s;
+}
+.creative-tag-cloud-color-8 {
+  fill: #5d5d5d;
+  transition:0.5s;
+}
+.creative-tag-cloud-color-9 {
+  fill: #946b2d;
+  transition:0.5s;
+}
+.creative-tag-cloud-color-10 {
+  fill: #000000;
+  transition:0.5s;
+}
+
+/*
+The following lines define the colors when the mouse hovers over the tags:
+*/
+.creative-tag-cloud-color-1:hover,
+.creative-tag-cloud-color-2:hover,
+.creative-tag-cloud-color-3:hover,
+.creative-tag-cloud-color-4:hover,
+.creative-tag-cloud-color-5:hover,
+.creative-tag-cloud-color-6:hover,
+.creative-tag-cloud-color-7:hover,
+.creative-tag-cloud-color-8:hover,
+.creative-tag-cloud-color-9:hover,
+.creative-tag-cloud-color-10:hover {
+  fill: #005;
+  transition:0.5s;
+}
